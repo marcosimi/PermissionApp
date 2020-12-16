@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.media.MediaPlayer;
+import android.media.MediaRecorder;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -38,6 +39,17 @@ public class MainActivity extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
             }*/
+
+            /*
+            Registrare un audio
+             */
+            //MediaRecorder recorder = new MediaRecorder();
+            //recorder.setOutputFormat(MediaRecorder.OutputFormat.DEFAULT);
+            //recorder.setOutputFile("Dove viene salvato il file di registrazione");
+            //recorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
+            //recorder.start();
+            //recorder.stop();
+            //recorder.release();
         }
     }
 
